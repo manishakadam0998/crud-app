@@ -1,0 +1,26 @@
+<div class="container w-50 mt-5 border shadow p-5">
+    
+    <form [formGroup]="signupform" (ngSubmit)="signup()">
+        <h4>sign up</h4>
+        <div class="mb-3">
+            <label for="id3" class="form-label" >name</label>
+            <input type="text" class="form-control" id="id13" formControlName="name" >
+          </div>
+          <div class="mb-3">
+            <label for="id4" class="form-label">mobile</label>
+            <input type="text" class="form-control" id="id4"  formControlName="mobile">
+          </div>
+        <div class="mb-3">
+          <label for="id1" class="form-label">Email </label>
+          <input type="email" class="form-control" id="id1" formControlName="Email" >
+        </div>
+        <div class="mb-3">
+          <label for="id2" class="form-label">Password</label>
+          <input type="password" class="form-control" id="id2" formControlName="Password">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" routerLink="/login">login</button>
+        <button type="submit" class="btn btn-primary" routerLink="/signup">signup</button>
+    
+      </form>
+         </div>

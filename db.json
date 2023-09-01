@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "name": "dhanashree",
+      "mobile": "8796080998",
+      "Email": "dk@gmail.com",
+      "Password": "1234",
+      "id": 1
+    },
+    {
+      "name": "",
+      "mobile": null,
+      "Email": "",
+      "Password": "",
+      "id": 2
+    },
+    {
+      "name": "manisha",
+      "mobile": "8796080998",
+      "Email": "dkd@gmail.com",
+      "Password": "123",
+      "id": 3
+    },
+    {
+      "name": "m",
+      "mobile": "9999999",
+      "Email": "mk",
+      "Password": "90",
+      "id": 4
+    },
+    {
+      "name": "manisha",
+      "mobile": "9999999",
+      "Email": "dk@gmail.com",
+      "Password": "33",
+      "id": 5
+    },
+    {
+      "name": "mk",
+      "mobile": "9999999",
+      "Email": "",
+      "Password": "123",
+      "id": 6
+    },
+    {
+      "name": "manisha",
+      "mobile": "8769080998",
+      "Email": "mk@gmail.com",
+      "Password": "1234",
+      "id": 7
+    },
+    {
+      "name": "kajal",
+      "mobile": "9999999",
+      "Email": "kajal@gmail.com",
+      "Password": "12345",
+      "id": 8
+    },
+    {
+      "name": "manisha kadam",
+      "mobile": "8796080998",
+      "Email": "manisha@gmail.com",
+      "Password": "123",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": "fridge ",
+      "category": "electrincs",
+      "price": "22222",
+      "stock": "12",
+      "id": 4
+    },
+    {
+      "name": "headphone",
+      "category": "ele",
+      "price": "22",
+      "stock": "1",
+      "id": 6
+    },
+    {
+      "name": "pen",
+      "category": "writing",
+      "price": "20",
+      "stock": "55",
+      "id": 7
+    },
+    {
+      "name": "cd",
+      "category": "electronics",
+      "price": "23",
+      "stock": "22",
+      "id": 8
+    },
+    {
+      "name": "charger",
+      "category": "ele",
+      "price": "20000",
+      "stock": "999",
+      "id": 9
+    }
+  ]
+}

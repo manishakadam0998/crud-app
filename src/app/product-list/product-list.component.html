@@ -1,0 +1,27 @@
+<p>product-list works!</p>
+<div class="container mt-2">
+    <button type="button" class="btn btn-primary " routerLink="/product/create-product">create product</button>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Product</th>
+                <th>Category</th>
+                <th>price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of productList; let i=index">
+                <td> <i class="bi bi-pencil-square" [routerLink]="['/product/edit-product' , product.id]"></i>
+                    <i class="bi bi-trash ms-2" (click)="deleteProduct(product.id,i)"></i>
+                </td>
+                <td>{{product.name}}</td>
+                <td>{{product.category}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.stock}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

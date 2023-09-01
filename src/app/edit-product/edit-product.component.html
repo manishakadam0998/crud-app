@@ -1,0 +1,23 @@
+<p>edit-product works!</p>
+<div class="container w-5o mt-5 border shadow p-5">
+  <form [formGroup]="productForm" (ngSubmit)="save()">
+    <div class="mb-3">
+        <label for="id1" class="form-label">name</label>
+        <input type="text" class="form-control" id="id1" formControlName="name">
+      </div>
+   v<div class="mb-3">
+    <label for="id2" class="form-label">category</label>
+    <input type="text" class="form-control" id="id2" formControlName="category">
+  </div>
+  <div class="mb-3">
+    <label for="id3" class="form-label">price</label>
+    <input type="text" class="form-control" id="id3"  formControlName="price">
+  </div><div class="mb-3">
+    <label for="id4" class="form-label">stock</label>
+    <input type="text" class="form-control" id="id4"  formControlName="stock">
+  </div>
+      <button type="submit" class="btn btn-primary">save</button>
+      <button type="button" class="btn btn-primary" routerLink="/product/product-list">back</button>
+
+  </form>
+</div>
