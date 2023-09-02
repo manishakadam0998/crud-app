@@ -11,6 +11,7 @@ export class HeaderComponent {
   counterValue: number = 0;
   constructor(private router: Router, private shared: SharedService) {}
   ngOnInit() {
+    console.log("hedaer good moorning")
     this.shared.subject$.subscribe((el: any) => {
       this.counterValue = el
     })
